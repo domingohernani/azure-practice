@@ -17,7 +17,7 @@ const items = [
     { id: 12, name: "Smart LED Desk Lamp with Wireless Charging", category: "Lifestyle", price: 45.00, inStock: true },
     { id: 13, name: "High-Fidelity Bluetooth Speaker", category: "Electronics", price: 119.99, inStock: false },
     { id: 14, name: "MagSafe Magnetic Power Bank 10,000mAh", category: "Wearables", price: 42.50, inStock: true },
-    { id: 15, name: "Noise-Isolating Memory Foam Earbuds", category: "Electronics", price: 15.99, inStock: true }
+    { id: 15, name: "Noise-Isolating Memory Foam Earbuds", category: "Electronics", price: 15.99, inStock: true },
     { id: 16, name: "Modular Cable Management Sleeve Set", category: "Accessories", price: 14.99, inStock: true },
     { id: 17, name: "Dual-Driver In-Ear Studio Monitors", category: "Electronics", price: 89.99, inStock: true },
     { id: 18, name: "Insulated Stainless Steel Travel Mug", category: "Lifestyle", price: 29.50, inStock: true },
@@ -36,7 +36,7 @@ const items = [
 ];
 
 app.get("/items", (req, res) => {
-  
+
     return res.status(200).json(items);
 });
 
