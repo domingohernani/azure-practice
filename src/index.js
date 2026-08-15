@@ -14,7 +14,7 @@ const items = [
     { id: 9, name: "Water-Resistant Commuter Backpack", category: "Lifestyle", price: 68.00, inStock: false },
     { id: 10, name: "USB-C Condenser Microphone", category: "Electronics", price: 79.95, inStock: true },
     { id: 11, name: "Minimalist Desk Pad Felt Mat", category: "Accessories", price: 19.99, inStock: true },
-    { id: 12, name: "Smart LED Desk Lamp with Wireless Charging", category: "Lifestyle", price: 45.00, inStock: true },
+    // { id: 12, name: "Smart LED Desk Lamp with Wireless Charging", category: "Lifestyle", price: 45.00, inStock: true },
     // { id: 13, name: "High-Fidelity Bluetooth Speaker", category: "Electronics", price: 119.99, inStock: false },
     //   { id: 15, name: "Noise-Isolating Memory Foam Earbuds", category: "Electronics", price: 15.99, inStock: true },
     // { id: 16, name: "Modular Cable Management Sleeve Set", category: "Accessories", price: 14.99, inStock: true },
